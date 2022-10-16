@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: red;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#CeniFoto{
+    height: 160px;
+    width: 160px;
+    margin: 5px;
+}
+#RaiFoto{
+    height: 160px;
+    width: 160px;
+    margin: 5px;
+}
+#ChulapaFoto{
+    height: 160px;
+    width: 160px;
+    margin: 5px;
+}
+#MullerFoto{
+    height: 160px;
+    width: 160px;
+    margin: 5px;
+}
+#CafuFoto{
+    height: 160px;
+    width: 160px;
+    margin: 5px;
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+
+    header{
+        height: 60px;
+        width: 100%;
+        min-width: 365px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: space-around;
+        padding: 10px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    main {
+        /* background-image: url("./midias/São\ Paulo\ Futebol\ Clube\ \(1\).jpg"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .busca-container{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        border: solid 2px black;
+        margin-bottom: 2px;
+        padding: 15px;
+    }
+    
+    input {
+        width: 220px;
+        height: 40px;
+        color: black;
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .lista-jogadores{
+        height: 200px;
+        background-color: orange;
+        margin-bottom: 15px;
+        width: 450px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: white 0.5px 0px 0px rgba(0, 0, 0, 0,2);
+        padding: 15px;
+    }
+    ul {
+        text-align: left;
+        line-height: 1;
+        width: 60%;
+        margin: 0 auto;
+    }
+    li {
+        list-style: none;
+        color: black;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+        
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    header{
+        height: 60px;
+        width: 100%;
+        min-width: 365px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: space-around;
+        padding: 10px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    main {
+        /* background-image: url("./midias/São\ Paulo\ Futebol\ Clube\ \(1\).jpg"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .busca-container{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        border: solid 2px black;
+        margin-bottom: 2px;
+        padding: 15px;
+    }
+    
+    input {
+        width: 220px;
+        height: 40px;
+        color: black;
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .lista-jogadores{
+        height: 200px;
+        background-color: orange;
+        margin-bottom: 15px;
+        width: 450px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: white 0.5px 0px 0px rgba(0, 0, 0, 0,2);
+    }
+    ul {
+        text-align: left;
+        line-height: 1;
+        width: 60%;
+        margin: 0 auto;
+    }
+    li {
+        list-style: none;
+        color: black;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+        
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        height: 60px;
+        width: 100%;
+        min-width: 365px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: space-around;
+        padding: 10px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    main {
+        /* background-image: url("./midias/São\ Paulo\ Futebol\ Clube\ \(1\).jpg"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .busca-container{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        border: solid 2px black;
+        margin-bottom: 2px;
+        padding: 15px;
+    }
+    
+    input {
+        width: 220px;
+        height: 40px;
+        color: black;
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .lista-jogadores{
+        height: 200px;
+        background-color: orange;
+        margin-bottom: 15px;
+        width: 450px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: white 0.5px 0px 0px rgba(0, 0, 0, 0,2);
+    }
+    ul {
+        text-align: left;
+        line-height: 1;
+        width: 60%;
+        margin: 0 auto;
+    }
+    li {
+        list-style: none;
+        color: black;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+        
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width:800px) {
+    header{
+        height: 60px;
+        width: 100%;
+        min-width: 365px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: space-around;
+        padding: 10px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    main {
+        /* background-image: url("./midias/São\ Paulo\ Futebol\ Clube\ \(1\).jpg"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .busca-container{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        border: solid 2px black;
+        margin-bottom: 2px;
+        padding: 15px;
+    }
+    
+    input {
+        width: 220px;
+        height: 40px;
+        color: black;
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .lista-jogadores{
+        height: 200px;
+        background-color: orange;
+        margin-bottom: 15px;
+        width: 450px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: white 0.5px 0px 0px rgba(0, 0, 0, 0,2);
+    }
+    ul {
+        text-align: left;
+        line-height: 1;
+        width: 60%;
+        margin: 0 auto;
+    }
+    li {
+        list-style: none;
+        color: black;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+        
+    }
+}
